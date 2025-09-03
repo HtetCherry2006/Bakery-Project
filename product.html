@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Berry Bliss Bakery</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body onload="loadCart()">
+
+    <header>
+        <h1>Our Delicious Products</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="basket.html"> Basket (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <section class="product-section">
+        <h2>Cakes</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/chocolate_cake.jpg" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p>$18.00</p>
+                <button onclick="addToCart('Chocolate Cake', 15)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/strawberry_cake.jpg" alt="Strawberry Cake">
+                <h3>Strawberry Cake</h3>
+                <p>$20.00</p>
+                <button onclick="addToCart('Strawberry Cake', 18)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/sponge_cake.jpg" alt="Sponge Cake">
+                <h3>Sponge Cake</h3>
+                <p>$19.00</p>
+                <button onclick="addToCart('sponge_cake', 18)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/butter_cake.jpg" alt="Butter Cake">
+                <h3>Butter Cake</h3>
+                <p>$25.00</p>
+                <button onclick="addToCart('butter_cake', 18)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/chesse_cake.jpg" alt="chesse_cake">
+                <h3>Chesse Cake</h3>
+                <p>$25.00</p>
+                <button onclick="addToCart('Chesse_cake', 18)">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="product-section">
+        <h2>Desserts </h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/ice_cream1.jpg" alt="Ice Cream">
+                <h3>Vanilla Ice Cream</h3>
+                <p>$5.00</p>
+                <button onclick="addToCart('Vanilla Ice Cream', 5)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/muffin.jpg" alt="Muffin">
+                <h3>Blueberry Muffin</h3>
+                <p>$4.00</p>
+                <button onclick="addToCart('Blueberry Muffin', 4)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/donut1.jpg" alt="Donut">
+                <h3>Donut</h3>
+                <p>$6.00</p>
+                <button onclick="addToCart('Donut', 4)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/cupcake.jpg" alt="Cupcakes">
+                <h3>cupcake</h3>
+                <p>$3.00</p>
+                <button onclick="addToCart('cupcake', 4)">Add to Cart</button>
+
+            </div>
+            <div class="product-card">
+                <img src="images/crossiant.jpg" alt="crossiant">
+                <h3>Yummy croosiant</h3>
+                <p>$12.00</p>
+                <button onclick="addToCart('croissants', 4)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="product.js"></script>
+
+</body>
+</html>

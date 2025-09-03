@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket - Berry Bliss Bakery </title>
+    <link rel="stylesheet" href="basket.css">
+</head>
+<body onload="loadBasket()">
+
+    <header>
+        <h1>Your Basket </h1>
+        <nav>
+            <a href="home.html"> Home</a>
+            <a href="product.html">Continue Shopping</a>
+        </nav>
+    </header>
+
+    <section class="basket-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="basket-items"></tbody>
+        </table>
+
+        <h2>Total: $<span id="total-price">0.00</span></h2>
+
+        <button class="checkout-btn" onclick="checkout()">Proceed to Checkout</button>
+
+    </section>
+
+    <script src="basket.js"></script>
+
+</body>
+</html>
