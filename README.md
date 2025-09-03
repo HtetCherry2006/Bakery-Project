@@ -39,4 +39,4 @@ Navigate via the menu to About, Gallery, Product, or Basket.
 Add items to your Basket and review your order before checkout.
 
 Author:
-[Your Name]
+Htet Htet Aung
